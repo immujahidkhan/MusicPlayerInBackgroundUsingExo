@@ -1,7 +1,6 @@
 package com.justclack.musicplayerinbackground;
 
 
-import android.app.IntentService;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -16,9 +15,7 @@ import android.util.Log;
 
 import java.io.IOException;
 
-/**
- * Created by Bob-JIANG on 2016/3/18.
- */
+
 public class LocalPlayerService extends Service {
     MediaPlayer mp = null;
 

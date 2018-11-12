@@ -11,17 +11,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
+
 
 import java.io.IOException;
 
-/**
- * Created by Bob-JIANG on 2016/3/17.
- */
+
 public class AudioPlay extends AppCompatActivity {
     private MediaPlayer mp = null;
     private Uri uriSound = null;

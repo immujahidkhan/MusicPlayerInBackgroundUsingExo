@@ -8,13 +8,10 @@ import android.net.Uri;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Toast;
+
 
 import java.io.IOException;
 
-/**
- * Created by Bob-JIANG on 2016/3/20.
- */
 public class LocalPlayerService2 extends Service {
     MediaPlayer mp = null;
 

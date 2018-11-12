@@ -2,7 +2,7 @@ package com.justclack.musicplayerinbackground;
 
 
 import android.content.Intent;
-import android.media.AudioManager;
+
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,13 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
-import java.io.IOException;
 
-/**
- * Created by Bob-JIANG on 2016/3/20.
- */
 public class LastingService extends AppCompatActivity {
     MediaPlayer mp = null;
     private Uri uriSound = null;
